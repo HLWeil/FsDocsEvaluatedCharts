@@ -1,0 +1,10 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: netstandard2.1
+
+nuget FSharp.Core redirects:force
+
+storage: packages
+nuget Plotly.NET redirects:force
+
